@@ -1,20 +1,20 @@
-# [Project Name] 🎯
+# FARMIFY 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: KASAMA
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: AKASA AS - LBS INSTITUTE OF TECHNOLOGY FOR WOMEN,POOJAPPURA,TRIVANDRUM
+- Member 2: SATHYA A - LBS INSTITUTE OF TECHNOLOGY FOR WOMEN,POOJAPPURA,TRIVANDRUM
+- Member 3: SHYAMA MS - LBS INSTITUTE OF TECHNOLOGY FOR WOMEN,POOJAPPURA,TRIVANDRUM
 
 ### Hosted Project Link
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+It's a website mainly focused for farmers and pet carers. It provides products like tools ,medicines etc..
 
 ### The Problem statement
 [What ridiculous problem are you solving?]
@@ -91,9 +91,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- AKASA AS: [Specific contributions]
+- SATHYA A: [Specific contributions]
+- SHYAMA MS: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub
