@@ -17,15 +17,15 @@
 It's a website mainly focused for farmers and pet carers. It provides products like tools ,medicines etc..
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
-
+It is hard to buy this type of products from other platforms cause the availability of this type of products are less even in online platforms as well as shops.There is so hard to find a veterinary doctor too, so we arranged that facilities to get an appointment from a doctor as customers choice.This type of platforms are rare in this society so we think it is a good idea to create a website like this.
 ### The Solution
-[How are you solving it? Keep it fun!]
+If there is a platform like this it must be very useful for farmers as well as pet carers.Actually there are so many options we can provide .we can elaborate the website later.
 
 ## Technical Details
+SX3
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- [Html,CSS,JavaScript]
 - [Frameworks used]
 - [Libraries used]
 - [Tools used]
