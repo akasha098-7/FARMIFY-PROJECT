@@ -11,7 +11,9 @@
 - Member 3: SHYAMA MS - LBS INSTITUTE OF TECHNOLOGY FOR WOMEN,POOJAPPURA,TRIVANDRUM
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://github.com/akasha098-7/FARMIFY-PROJECT
+farmify-project-gvlw.vercel.app
+
 
 ### Project Description
 It's a website mainly focused for farmers and pet carers. It provides products like tools ,medicines etc..
