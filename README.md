@@ -47,27 +47,20 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+[Signup)](https://github.com/user-attachments/assets/86e5be47-0c8a-4b73-959b-b814f3eb1b92)
+this is the sign in page that comes first.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Order-Confirmation](https://github.com/user-attachments/assets/6d94b21e-c4f2-4200-ac1d-a863e7192f4c)
+this is the order confirmation page that pops up after the order is placed.
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
 
-For Hardware:
+![Appointment page](https://github.com/user-attachments/assets/1c4aa41c-d806-40bd-a4bf-b4fc874fd443)
+this is the appointment page where a list of consultants are shown. And the user can book an appointment by choosing any consulatant.
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+![code)](https://github.com/user-attachments/assets/b637bad6-efa1-463e-9fe8-3c9014ce337f)
+this is a part of code that was used to create the page order confirmation
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 # Build Photos
 ![Team](Add photo of your team here)
@@ -91,9 +84,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- AKASA AS: [Specific contributions]
-- SATHYA A: [Specific contributions]
-- SHYAMA MS: [Specific contributions]
+- AKASA AS: [coding]
+- SATHYA A: [coding,logo designing]
+- SHYAMA MS: [logo designing,coding]
 
 ---
 Made with ❤️ at TinkerHub
