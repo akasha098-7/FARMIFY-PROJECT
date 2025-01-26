@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmify - Home</title>
+    <!-- Google Fonts link for Vast Shadow font -->
+    <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #228b22;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        /* Circular logo */
+        .logo img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%; /* This makes the logo circular */
+            margin-right: 10px;
+        }
+
+        /* Apply the Vast Shadow font to the Farmify text without bold */
+        h1 {
+            font-family: 'Vast Shadow', sans-serif;
+            font-size: 36px;
+            font-weight: normal; /* Remove bold */
+        }
+
+        .search-bar {
+            display: flex;
+            flex: 1;
+            margin: 0 20px;
+        }
+
+        .search-bar input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+        }
+
+        .search-bar button {
+            background-color: #fdd835;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .categories {
+            display: flex;
+            overflow-x: auto;
+            padding: 10px;
+            background-color: #f3f3f3;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .categories div {
+            padding: 10px 20px;
+            white-space: nowrap;
+            font-weight: bold;
+            color: #333;
+            cursor: pointer;
+        }
+
+        .categories div:hover {
+            background-color: #ddd;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 products per row */
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 250px; /* Increased height for bigger images */
+            object-fit: cover;
+        }
+
+        .product-card .details {
+            padding: 15px;
+        }
+
+        .product-card .details h2 {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .product-card .details p {
+            color: #777;
+            font-size: 14px;
+            margin: 0 0 10px;
+        }
+
+        .product-card .details .price {
+            color: #4CAF50;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #228b22;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-around; /* Adjusts spacing evenly between items */
+            align-items: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 14px;
+            color: white;
+            text-decoration: none;
+            padding-left: 10px; /* Added some padding for spacing */
+        }
+
+        .footer-item span {
+            margin-top: 5px;
+        }
+
+        /* Ensure 'My Account' is fully visible */
+        .footer-item.account {
+            white-space: nowrap; /* Prevent text from breaking */
+            min-width: 90px; /* Set a minimum width to ensure 'My Account' fits */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Farmify Logo">
+            <h1>Farmify</h1> <!-- Now uses Vast Shadow font without bold -->
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products...">
+            <button>Search</button>
+        </div>
+    </header>
+
+    <div class="categories">
+        <div>All Categories</div>
+        <div>Farming Tools</div>
+        <div>Animal Products</div>
+        <div>Seeds</div>
+        <div>Machinery</div>
+        <div>Fertilizers</div>
+    </div>
+
+    <section class="products">
+        <!-- First row of products -->
+        <div class="product-card">
+            <a href="shovel.html">
+                <img src="shovel.jpg" alt="Shovel">
+                <div class="details">
+                    <h2>Shovel</h2>
+                    <p>High-quality farming tool for all your needs.</p>
+                    <p class="price">₹330.00</p>
+                </div>
+            </a>
+        </div>
+        <div class="product-card">
+            <a href="cowfeed.html">
+            <img src="cowfeed.jpg" alt="DairyGold Cow Feed">
+            <div class="details">
+                <h2>DairyGold Cow Feed</h2>
+                <p>High nutrition,boost milk,improved digestion.</p>
+                <p class="price">₹143.00</p>
+            </div>
+        </a>
+        </div>
+        <div class="product-card">
+            <a href="dog.html">
+            <img src="dog.jpg" alt="Dewormer">
+            <div class="details">
+                <h2>Dewormer</h2>
+                <p>For dogs and cats.</p>
+                <p class="price">₹108.00</p>
+            </div>
+        </a>
+        </div>
+
+        <!-- Second row of products (on next line) -->
+        <div class="product-card">
+            <a href="okra.html">
+            <img src="okra.jpg" alt="Okra Seeds">
+            <div class="details">
+                <h2>Okra Seeds</h2>
+                <p>Seeds.</p>
+                <p class="price">₹49.00</p>
+            </div>
+        </a>
+        </div>
+        <div class="product-card">
+            <a href="hen.html">
+            <img src="hen.jpg" alt="Poultry Equipments">
+            <div class="details">
+                <h2>Poultry Equipments</h2>
+                <p>Essential farming supplies</p>
+                <p class="price">₹288.00</p>
+            </div>
+        </a>
+        </div>
+        <div class="product-card">
+            <a href="fertilizer.html">
+            <img src="fertilizer.jpg" alt="Go Garden DAP Fertilizer">
+            <div class="details">
+                <h2>Go Garden DAP Fertilizer</h2>
+                <p>Essential farming supplies for your daily tasks.</p>
+                <p class="price">₹208.00</p>
+            </div>
+        </a>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#" class="footer-item">
+            <span>Home</span>
+        </a>
+        <a href="#" class="footer-item">
+            <span>My Orders</span>
+        </a>
+        <a href="#" class="footer-item account">
+            <span>My Account</span>
+        </a>
+    </footer>
+</body>
+</html>

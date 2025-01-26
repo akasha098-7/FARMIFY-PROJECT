@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointments</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #f0f2f5; /* Light gray background */
+        }
+
+        nav {
+            background-color: white;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+        nav h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        main {
+            padding: 5rem 1rem 1rem; /* Top padding for nav, side padding */
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .appointment-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid #4CAF50; /* Blue accent */
+        }
+
+        .appointment-card h2 {
+            font-size: 1.25rem;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+        }
+
+        .appointment-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two columns */
+            gap: 1rem;
+        }
+
+        .appointment-details p {
+            margin: 0.25rem 0;
+        }
+        .back-button {
+            display: block;
+            margin-top: 2rem;
+            padding: 0.75rem 1.5rem;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .back-button:hover{
+            background-color: #4CAF50;
+        }
+        @media (max-width: 600px) {
+            .appointment-details {
+                grid-template-columns: 1fr; /* One column on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>FARMIFY - Appointments</h1>
+    </nav>
+    <main>
+        <div class="appointment-card">
+            <h2><a href="booking_smith.html" style="text-decoration: none; color: inherit;">Appointment with Dr. Smith</a></h2>
+            <div class="appointment-details">
+                <p><strong>Date:</strong> October 26, 2024</p>
+                <p><strong>Time:</strong> 10:00 AM</p>
+                <p><strong>Location:</strong> Main Clinic</p>
+                <p><strong>Reason:</strong> Check-up</p>
+            </div>
+        </div>
+
+        <div class="appointment-card">
+            <h2><a href="booking_jones.html" style="text-decoration: none; color: inherit;">Appointment with Dr. Jones</a></h2>
+            <div class="appointment-details">
+                <p><strong>Date:</strong> November 5, 2024</p>
+                <p><strong>Time:</strong> 12:00 PM</p>
+                <p><strong>Location:</strong> Farm Office</p>
+                <p><strong>Reason:</strong> Consultation</p>
+            </div>
+        </div>
+
+        <div class="appointment-card">
+            <h2><a href="booking_dokja.html" style="text-decoration: none; color: inherit;">Appointment with Dr. Dokja</a></h2>
+            <div class="appointment-details">
+                <p><strong>Date:</strong> September 22, 2024</p>
+                <p><strong>Time:</strong> 2:00 PM</p>
+                <p><strong>Location:</strong> Farm Office</p>
+                <p><strong>Reason:</strong> Consultation</p>
+            </div>
+        </div>
+
+        <div class="appointment-card">
+            <h2><a href="booking_reki.html" style="text-decoration: none; color: inherit;">Appointment with Dr.Reki</a></h2>
+            <div class="appointment-details">
+                <p><strong>Date:</strong> April 4, 2024</p>
+                <p><strong>Time:</strong> 3:00 PM</p>
+                <p><strong>Location:</strong> Farm Office</p>
+                <p><strong>Reason:</strong> Consultation</p>
+            </div>
+        </div>
+
+        <div class="appointment-card">
+            <h2><a href="booking_langa.html" style="text-decoration: none; color: inherit;">Appointment with Dr.Langa</a></h2>
+            <div class="appointment-details">
+                <p><strong>Date:</strong> October 24, 2024</p>
+                <p><strong>Time:</strong> 4:00 PM</p>
+                <p><strong>Location:</strong> Farm Office</p>
+                <p><strong>Reason:</strong> Consultation</p>
+            </div>
+        </div>
+
+        <div class="appointment-card">
+            <h2><a href="booking_kasama.html" style="text-decoration: none; color: inherit;">Appointment with Dr.Kasama</a></h2>
+            <div class="appointment-details">
+                <p><strong>Date:</strong> October 25, 2024</p>
+                <p><strong>Time:</strong> 11:11 PM</p>
+                <p><strong>Location:</strong> Main Clinic</p>
+                <p><strong>Reason:</strong> Consultation</p>
+            </div>
+        </div>
+        <a href="index2.html" class="back-button">Go Back</a>
+    </main>
+</body>
+</html>

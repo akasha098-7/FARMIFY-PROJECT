@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FARMIFY</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ebf1eb;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .logo-container {
+            text-align: center;
+            animation: pop-in 1s ease-out;
+        }
+        .logo-container img {
+            max-width: 700px;
+            border-radius: 50%;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+        @keyframes pop-in {
+            0% {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+    <script>
+        setTimeout(() => {
+            window.location.href = "welcome.html";
+        }, 3000);
+    </script>
+</head>
+<body>
+    <div class="logo-container">
+        <img src="logo.png" alt="Platform Logo">
+    </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmify</title>
+    <style>
+        /* Basic Tailwind-like styles. These are NOT exhaustive. */
+        body {
+            font-family: sans-serif; /* A basic font */
+            margin: 0;
+            background-color: #f3f4f6; /* bg-gray-100 */
+        }
+        nav {
+            background-color: white;
+            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); /* shadow */
+            padding: 1rem; /* p-4 */
+        }
+        h1 {
+            font-size: 2.25rem; /* text-4xl */
+            font-weight: bold;
+            color: #16a34a; /* text-green-600 */
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem 0; /* py-16 */
+            min-height: calc(100vh - 5rem); /* Account for nav height */
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+            gap: 2rem; /* gap-8 */
+            width: 100%;
+            max-width: 36rem; /* max-w-lg */
+        }
+        .link-card {
+            display: block;
+            padding: 2rem; /* p-8 */
+            text-align: center;
+            border-radius: 0.5rem; /* rounded-lg */
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.06); /* shadow-lg */
+            transition: transform 0.2s;
+        }
+        .link-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.05); /* hover:shadow-md */
+        }
+        .green {
+            background-color: #ecfdf5; /* bg-green-100 */
+            border: 1px solid #15803d; /* border-green-500 */
+            color: #15803d;
+        }
+        .blue {
+            background-color: #eff6ff; /* bg-blue-100 */
+            border: 1px solid #2563eb; /* border-blue-500 */
+            color: #2563eb;
+        }
+        h3 {
+            font-size: 1.5rem; /* text-2xl */
+            font-weight: bold;
+        }
+        p {
+            font-size: 1rem; /* text-lg */
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>FARMIFY</h1>
+    </nav>
+    <div class="container">
+        <div class="grid">
+            <a href="marchandise.html" class="link-card green">
+                <h3>Merchandise</h3>
+                <p>Explore and shop our exclusive farm products!</p>
+            </a>
+            <a href="appointments.html" class="link-card blue" aria-label="Appointments Link">
+                <h3>Appointments</h3>
+                <p>Book your appointment with us today!</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
