@@ -30,21 +30,6 @@ For Software:
 - [Libraries used]
 - [Tools used]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
-
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
-For Software:
 
 # Screenshots (Add at least 3)
 [Signup)](https://github.com/user-attachments/assets/86e5be47-0c8a-4b73-959b-b814f3eb1b92)
@@ -63,25 +48,11 @@ this is a part of code that was used to create the page order confirmation
 
 
 # Build Photos
-![Team](Add photo of your team here)
+
+![WhatsApp Image 2025-01-26 at 11 28 39 AM](https://github.com/user-attachments/assets/e179585e-e964-4d3e-ab07-966a8f928ddc)
 
 
-![Components](Add photo of your components here)
-*List out all components shown*
 
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
 - AKASA AS: [coding]
