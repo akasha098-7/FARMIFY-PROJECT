@@ -5,65 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farmify</title>
     <style>
-        /* Basic Tailwind-like styles. These are NOT exhaustive. */
+       
         body {
-            font-family: sans-serif; /* A basic font */
+            font-family: sans-serif; 
             margin: 0;
-            background-color: #f3f4f6; /* bg-gray-100 */
+            background-color: #f3f4f6; 
         }
         nav {
             background-color: white;
-            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); /* shadow */
-            padding: 1rem; /* p-4 */
+            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); 
+            padding: 1rem;
         }
         h1 {
-            font-size: 2.25rem; /* text-4xl */
+            font-size: 2.25rem;
             font-weight: bold;
-            color: #16a34a; /* text-green-600 */
+            color: #16a34a; 
         }
         .container {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 4rem 0; /* py-16 */
-            min-height: calc(100vh - 5rem); /* Account for nav height */
+            padding: 4rem 0;
+            min-height: calc(100vh - 5rem);
         }
         .grid {
             display: grid;
             grid-template-columns: repeat(1, minmax(0, 1fr));
-            gap: 2rem; /* gap-8 */
+            gap: 2rem; 
             width: 100%;
-            max-width: 36rem; /* max-w-lg */
+            max-width: 36rem;
         }
         .link-card {
             display: block;
-            padding: 2rem; /* p-8 */
+            padding: 2rem;
             text-align: center;
-            border-radius: 0.5rem; /* rounded-lg */
-            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.06); /* shadow-lg */
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -1px rgb(0 0 0 / 0.06); 
             transition: transform 0.2s;
         }
         .link-card:hover {
             transform: scale(1.05);
-            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.05); /* hover:shadow-md */
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -2px rgb(0 0 0 / 0.05);
         }
         .green {
-            background-color: #ecfdf5; /* bg-green-100 */
-            border: 1px solid #15803d; /* border-green-500 */
+            background-color: #ecfdf5;
+            border: 1px solid #15803d;
             color: #15803d;
         }
         .blue {
-            background-color: #eff6ff; /* bg-blue-100 */
-            border: 1px solid #2563eb; /* border-blue-500 */
+            background-color: #eff6ff; 
+            border: 1px solid #2563eb; 
             color: #2563eb;
         }
         h3 {
-            font-size: 1.5rem; /* text-2xl */
+            font-size: 1.5rem;
             font-weight: bold;
         }
         p {
-            font-size: 1rem; /* text-lg */
+            font-size: 1rem;
         }
 
     </style>
