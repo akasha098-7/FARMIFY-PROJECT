@@ -20,7 +20,7 @@
             box-sizing: border-box;
         }
         button {
-            background-color: #4CAF50; /* Green */
+            background-color: #4CAF50;
             border: none;
             color: white;
             padding: 10px 20px;
@@ -31,7 +31,7 @@
             border-radius: 5px;
         }
 
-        /* Overlay style */
+      
         .overlay {
             position: fixed;
             top: 0;
@@ -43,7 +43,7 @@
             z-index: 999;
         }
 
-        /* Success message style */
+       
         .message {
             position: fixed;
             top: 50%;
@@ -70,9 +70,9 @@
     </style>
     <script>
         function showSuccessMessage(event) {
-            event.preventDefault();  // Prevent form submission
+            event.preventDefault();  
 
-            // Create overlay and success message
+           
             const overlay = document.createElement('div');
             overlay.classList.add('overlay');
             document.body.appendChild(overlay);
@@ -82,11 +82,11 @@
             messageDiv.innerHTML = '<span class="tick">✔</span>Booking Done Successfully';
             document.body.appendChild(messageDiv);
 
-            // Show overlay and message
+            
             overlay.style.display = 'block';
             messageDiv.style.display = 'block';
 
-            // Hide the popup and overlay after 3 seconds
+           
             setTimeout(() => {
                 overlay.remove();
                 messageDiv.remove();
