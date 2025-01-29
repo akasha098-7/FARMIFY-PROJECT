@@ -116,24 +116,24 @@
     </div>
 
     <script>
-        // JavaScript for quantity and price calculation
-        const productPrice = 330; // Base price of the product
+       
+        const productPrice = 330; 
         const quantityInput = document.getElementById('quantity');
         const totalPriceElement = document.getElementById('total-price');
 
-        // Update total price when quantity changes
+       
         quantityInput.addEventListener('input', () => {
-            const quantity = parseInt(quantityInput.value) || 1; // Default to 1 if empty or invalid
+            const quantity = parseInt(quantityInput.value) || 1;
             const totalPrice = productPrice * quantity;
-            totalPriceElement.textContent = totalPrice.toFixed(2); // Display total price with 2 decimals
+            totalPriceElement.textContent = totalPrice.toFixed(2);
         });
 
-        // Buy Now button action
+       
         document.getElementById('buy-now').addEventListener('click', () => {
             window.location.href = 'order-confirmation.html';
         });
 
-        // Add to Cart button action
+        
         document.getElementById('add-to-cart').addEventListener('click', () => {
             alert('Product added to cart!');
         });
