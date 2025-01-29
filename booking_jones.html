@@ -61,18 +61,18 @@
     </style>
     <script>
         function showPopup(event) {
-            event.preventDefault(); // Prevent form submission
+            event.preventDefault(); 
 
-            // Show the overlay and popup
+            
             document.getElementById('overlay').style.display = 'block';
             document.getElementById('popup').style.display = 'block';
 
-            // Hide the popup and overlay after 3 seconds
+            
             setTimeout(() => {
                 document.getElementById('overlay').style.display = 'none';
                 document.getElementById('popup').style.display = 'none';
 
-                // Optionally redirect to another page
+               
                 window.location.href = 'appointments.html';
             }, 3000);
         }
